@@ -17,7 +17,6 @@ basic analytics.
 ## Requirements
 
 - Node.js 20+ (tested on v20.14) and npm
-- Access to MongoDB (a local instance or MongoDB Atlas)
 
 ## Step 1 — Install dependencies
 
