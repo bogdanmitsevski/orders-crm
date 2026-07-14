@@ -9,7 +9,6 @@ export class BasicAuthGuard implements CanActivate {
         const header: string | undefined = request.headers['authorization'];
 
         if (!header?.startsWith('Basic ')) {
-            response.header('WWW-Authenticate', 'Basic');
             throw new UnauthorizedException('Missing Basic Authorization header');
         }
 
