@@ -126,12 +126,6 @@ curl -u <API_BASIC_AUTH_USER>:<API_BASIC_AUTH_PASSWORD> http://localhost:3000/ap
 ```bash
 # unit tests (dependencies are mocked, no real DB needed)
 npm run test
-
-# with coverage
-npm run test:cov
-
-# e2e tests
-npm run test:e2e
 ```
 
 ## Project structure
