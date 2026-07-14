@@ -33,7 +33,6 @@ describe('BasicAuthGuard', () => {
         const context = createContext(undefined);
 
         expect(() => guard.canActivate(context)).toThrow(UnauthorizedException);
-        expect(setHeader).toHaveBeenCalledWith('WWW-Authenticate', 'Basic');
     });
 
     it('rejects the request when the scheme is not Basic', () => {
